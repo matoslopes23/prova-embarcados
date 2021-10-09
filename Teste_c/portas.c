@@ -45,7 +45,7 @@ int main()
 {
     //testando na porta AND com valores A  e B
     //basta trocar os valores que corresponde a tabela
-    printf("!(%d or %d) = %d\n", 1, 0, processamento(1, 0, 4));
+    printf("!(%d and %d) = %d\n", 1, 0, processamento(1, 0, 4));
     // a,b             //a,b,op
     return 0;
 }
