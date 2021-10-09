@@ -10,19 +10,19 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity portas is
+entity porta is
     port(
         a , b : in std_logic; -- Entradas
         x : out std_logic -- Saída
     );
-end portas;
+end porta;
 
 -- Arquitetura
-architecture main of portas is
+architecture master of porta is
 begin
   process(a, b) is
   begin
     x <= not(a and b);
   end process;
-end main;
+end master;
 -- Fim
